@@ -47,5 +47,5 @@
     5. Moving common styles to styles.css __text_input
     5. Importing TextInput in EmailInput and using it
     6. Changing onChange to props.changeHandler and adding it to PropTypes
-    7. repeating these steps for PasswordInput
-10. 
+    7. Repeating these steps for PasswordInput
+10. Creating the SubmitButton component
