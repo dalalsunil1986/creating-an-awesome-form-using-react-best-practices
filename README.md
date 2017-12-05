@@ -42,4 +42,10 @@
 9. Generalizing common code from EmailInput and PasswordInput
     1. A single handleChange event handler instead of two
     2. Immutable change state and the spread operator
-    3. Creating a generic Input component to wrap common functionality
+    3. Creating a generic TextInput component to wrap common functionality
+    4. Using esNext a template string for className
+    5. Moving common styles to styles.css __text_input
+    5. Importing TextInput in EmailInput and using it
+    6. Changing onChange to props.changeHandler and adding it to PropTypes
+    7. repeating these steps for PasswordInput
+10. 
