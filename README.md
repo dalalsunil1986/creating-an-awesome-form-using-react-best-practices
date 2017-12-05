@@ -33,3 +33,13 @@
 7. Creating a stateless PasswordInput component
     1. Creating the component folder 'components/PasswordInput'
     2. Creating the component file 'components/PasswordInput/index.js'
+    3. Copying the code from the EmailComponent and renaming
+    4. Copying the styles.css file from EmailComponent and renaming
+8. Importing and using our PasswordInput in SignupForm
+    1. Adding our password state to the constructor
+    2. Adding a change handler for password
+    3. Adding our PasswordInput component to the render function
+9. Generalizing common code from EmailInput and PasswordInput
+    1. A single handleChange event handler instead of two
+    2. Immutable change state and the spread operator
+    3. Creating a generic Input component to wrap common functionality
